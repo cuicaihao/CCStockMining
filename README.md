@@ -1,5 +1,6 @@
 # CCStockMining
 **StockMining Framework of CHINA by Caihao Cui**
+
 **Time: 25-May-2015 **
 
 This beta version project using Matlab Scripts is a framework to develop algorithms/methods for finding a good prediction of stock markets in China.
