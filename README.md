@@ -1,10 +1,9 @@
 # CCStockMining
-**StockMining Framework of CHINA by Caihao Cui**
-
+**StockMining Framework for China by Caihao Cui**
 **Time: 25-May-2015 **
 
 This beta version project using Matlab Scripts is a framework to develop algorithms/methods for finding a good prediction of stock markets in China.
-It using data from Yahoo Finance websit, one could update all the data using very basic commands, saving a lot of time try to get the raw data.
+It using data from Yahoo Finance websit, one could update all the data using very basic commands which will save a lot of time and help focuing on the prediction methods.
 
 It contains 2272 stocks like ***'00XXXX','30XXXX' and '60XXXX'***. 
 One could change the stock list in **CStock.mat** in matlab.
