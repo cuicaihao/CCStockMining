@@ -38,6 +38,7 @@ classdef CC_OneStock
                     end
                 end
                 % reverse the order
+                % find the stock whose volume changes most 
                 Vol = Vol(end:-1:1);
                 v1 = Vol(1:n-1);
                 v2 = Vol(2:n);
@@ -46,9 +47,8 @@ classdef CC_OneStock
                 if isempty(list)
                     r = 0;
                 else
-                dvm = dv(list,:);
-                r =  sum(dvm)/length(dvm);
-                %r = sum(dvm);
+                    dvm = dv(list,:);
+                    r =  sum(dvm)/length(dvm);
                 end
             end
         end
